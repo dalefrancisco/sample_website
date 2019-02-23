@@ -5,7 +5,11 @@
     <meta charset="utf-8">
   </head>
   <body>
-
+    <div style="text-align: right;">
+      <a href="index.html">Home</a>
+      <a href="moby_dick.html">Moby Dick</a>
+      <a href="tags.html">HTML Tags</a>
+    </div>
     <h1>Important HTML tags</h1>
 
     <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper">
@@ -31,8 +35,8 @@
         <th>Purpose</th>
       </tr>
       <tr>
-        <td><code>h1</code>&ndash;<code>h6</code></td>
-        <td>headings</td>
+        <td style="padding: 10px";><code>h1</code>&ndash;<code>h6</code></td>
+        <td style="padding: 10px";>headings</td>
         <td>include a heading (levels 1&ndash;6)</td>
       </tr>
       <tr>
@@ -109,15 +113,63 @@
       </td>
       <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
     </tr>
+
     <tr>
-       <td><code>code</code></td>
-       <td>code</td>
-       <td>make monospace text</td>
+       <td><code>div</code></td>
+       <td>div</td>
+       <td>mark content block</td>
        <td>
-       <code>&lt;code&gt;hello, world&lt;/code&gt;</code>
+       <code>&lt;div&gt;This coud be many paragraphs&lt;/div&gt;</code>
        </td>
-       <td><code>hello, world</code></td>
+       <td><div>(No visible effect)</div></td>
      </tr>
+     <tr>
+        <td><code>span</code></td>
+        <td>span</td>
+        <td>mark content inline</td>
+        <td>
+        <code>&lt;span&gt;This is special&lt;/span&gt;</code>
+        </td>
+        <td><span>(No visible effect)</span></td>
+      </tr>
+      <tr>
+
+       <tr>
+          <td><code>header</code></td>
+          <td>header</td>
+          <td>group header content</td>
+          <td>
+          <code>&lt;header&gt;This coud be headings, logos, etc.&lt;/header&gt;</code>
+          </td>
+          <td><header>(No visible effect)</header></td>
+        </tr>
+        <tr>
+           <td><code>ol</code></td>
+           <td>ol</td>
+           <td>ordered list</td>
+           <td>
+           <code>&lt;ol&gt;A numbered list block&lt;/ol&gt;</code>
+           </td>
+           <td><ol>Ordered list</ol></td>
+         </tr>
+         <tr>
+            <td><code>ul</code></td>
+            <td>ul</td>
+            <td>Unordered list</td>
+            <td>
+            <code>&lt;ul&gt;Unordered list block.&lt;/ul&gt;</code>
+            </td>
+            <td><ul>Unordered list</ul></td>
+          </tr>
+          <tr>
+             <td><code>li</code></td>
+             <td>li</td>
+             <td>list element</td>
+             <td>
+             <code>&lt;li&gt;Item on a list&lt;/li&gt;</code>
+             </td>
+             <td><li>A listed item</li></td>
+           </tr>
      </table>
   </body>
 </html>
